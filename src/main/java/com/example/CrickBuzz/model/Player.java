@@ -27,6 +27,8 @@ public class Player {
 
     int age;
 
+    String email;
+
     @Enumerated(value = EnumType.STRING) //it will convert the number value of enum to the string value we given
     Gender gender;
 
